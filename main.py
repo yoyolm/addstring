@@ -2,6 +2,7 @@
 
 from openpyxl import load_workbook
 
+
 路径 = r"folder\数据.xlsx"
 
 工作表 = load_workbook(路径).active
